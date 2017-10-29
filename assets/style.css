@@ -1,0 +1,123 @@
+h1{
+	color: #3182bd;
+}
+
+
+h2, h3, h4{
+	color: #3182bd;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+body{
+	background-color: lightgray;
+}
+
+.container {
+   width: 90%;
+}
+
+.container-fluid {
+   width: 88%;
+}
+
+.right {
+	position: relative;
+	display: block;
+	overflow-x:	auto;
+	background-color: white;
+	float: left;
+	margin: 20px;
+	padding: 20px;
+}
+
+.left {
+	float: left;
+	margin: 20px;	
+	padding: 20px;
+}
+
+.mainplotimage {
+	margin-bottom: 12px;
+	width: 60%;
+	height: 60%;
+}
+
+.comparisonplot {
+	float: left;
+    margin-left: 40px;
+	width: 80%;
+	height: 80%;
+}
+
+.rightplots {
+	float: left;
+	margin: 20px;
+	padding: 20px;
+}
+
+.leftplots {	
+	float: left;
+	min-height: 100px;
+	height: 550px;
+	margin: 20px;	
+	padding: 20px;
+}
+
+a.navbar-brand.navbrand {
+	background-color: #3182bd;
+	margin-left: 20px;
+	color: white;
+}
+
+
+.image{
+	float: left;
+    overflow: hidden;
+	width: 85%;
+	height: 85%;
+	margin: 20px;
+}
+
+.summary {
+	width: 50%;
+	float: left;
+	margin: 20px;
+}
+
+
+#first {
+	font-size: 15px;
+	padding: 30px;
+	text-align: justify;
+}
+
+#second {
+	font-size: 15px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	text-align: justify;
+}
+
+.table{
+	margin-top: 30px;
+}
+
+.whitebackground{
+	background-color: white;
+	margin-top: 40px auto;
+	padding: 30px;
+}
+.footer {
+    border-top: 2px blue dashed;
+}
+
+.copyright {
+	padding-top: 15px;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+}*/*/*/

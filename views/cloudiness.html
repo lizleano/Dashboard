@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../assets/style.css">
+
+    <!-- jquery -->
+    <script  src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  	<title>Latitude Analysis</title>
+  </head>
+  <body>
+  	    <!-- navbar.html -->
+	    <nav class="navbar navbar-default navbar-static-top">
+	      <div class="container-fluid">
+	        <!-- Brand and toggle get grouped for better mobile display -->
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand navbrand" href="landingpage.html">Latitude</a>
+	        </div>
+	        <!-- Collect the nav links, forms, and other content for toggling -->
+	        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	          <!-- <ul class="nav navbar-nav">
+	            <li class="active"><a href="#">Latitude<span class="sr-only">(current)</span></a></li>         
+	          </ul>   -->     
+	          <ul class="nav navbar-nav navbar-right">
+	            <li class="dropdown">
+	                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+	                  <ul class="dropdown-menu">
+	                    <li><a href="temperature.html"><i class="fa fa-tint" aria-hidden="true"></i> Temperature</a></li>
+	                    <li><a href="humidity.html"><i class="fa fa-tachometer" aria-hidden="true"></i> Humidity</a></li>
+	                    <li><a href="cloudiness.html"><i class="fa fa-cloud" aria-hidden="true"></i> Cloudiness</a></li>
+	                    <li><a href="windspeed.html"><i class="fa fa-leaf" aria-hidden="true"></i> Wind Speed</a></li>
+	                  </ul>
+	            </li>
+	            <li><a href="comparison.html">Comparison</a></li>            
+	            <li><a href="data.html">Data</a></li>
+	          </ul>
+	        </div><!-- /.navbar-collapse -->
+	      </div><!-- /.container-fluid -->
+	    </nav>
+
+		<div class="container">
+			<div class="row">
+				<div class="whitebackground left col-md-8">						
+					<h2>Cloudiness</h2>
+					<hr>
+				    <div class="text-center">
+						<img class="mainplotimage img-thumbnail" src="../images/cloudiness.png">
+					</div>
+					<div>
+						<p>Continents tend to be less cloudy than adjacent oceans (at the same latitude), except in the equatorial belt. On average, cloudiness is highest around 60 degrees Latitude (about 80% of the time) but there is only 40% cloud cover at the South Pole. </p>
+					</div>
+				</div>
+				<div class="whitebackground rightplots col-md-3">
+		          <h3>Visualizations</h3>
+		          <hr>
+		          <div class="row">
+		            <div class="col-md-6 col-xs-3">
+		              <a href="temperature.html">
+		                <img class="image img-thumbnail" src="../images/temperature.png">
+		              </a>
+		            </div>
+		            <div class="col-md-6 col-xs-3">
+		              <a href="humidity.html">                
+		                <img class="image img-thumbnail" src="../images/humidity.png">
+		              </a>
+		            </div>
+		            <div class="col-md-6 col-xs-3">
+		              <a href="cloudiness.html">                    
+		                  <img class="image img-thumbnail" src="../images/cloudiness.png">
+		              </a>
+		            </div>
+		           <div class="col-md-6 col-xs-3">
+		              <a href="windspeed.html">                   
+		                  <img class="image img-thumbnail" src="../images/windspeed.png">
+		              </a>                  
+		            </div>
+		          </div>
+		        </div> <!-- right -->
+			</div>	
+		</div>
+
+	    <div class="navbar navbar-inverse navbar-fixed-bottom footer">
+	      <p class="copyright">&copy; Copyright Lizette Leano 2017</p>
+	    </div>
+	</body>
+</html>
+
